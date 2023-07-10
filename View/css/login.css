@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.container {
+    max-width: 10px;
+    background-color: #E4F9F5;
+    justify-content: left;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.header-contact {
+    margin-top: 0px;
+    height: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    padding: 20px 10px;
+    border-radius: 25px;
+}
+
+.header-contact {
+    display: flex;
+}
+
+.header-contact a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: right;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
